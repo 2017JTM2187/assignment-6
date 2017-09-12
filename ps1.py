@@ -23,8 +23,13 @@ ind3=ind+3
 seq="0"
 print str2.join(seq)
 
+start="0101"
+end="0101"
+
 #str3 = str2[0:] + str2(ind2)=0 + str2[ind+3:]
 
+start=start+str2
+str2=start+end
 print "Modified string received at the other end:",str2
 
    
